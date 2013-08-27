@@ -1,0 +1,6 @@
+#surefire
+#Mon Aug 26 23:24:54 IST 2013
+browser=chrome
+user.dir=E\:\\Omkar\\Maven\\com.project
+localRepository=C\:\\Users\\Shree\\.m2\\repository
+basedir=E\:\\Omkar\\Maven\\com.project
