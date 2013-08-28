@@ -13,14 +13,14 @@ import org.testng.annotations.Test;
 public class TestSetting{
 
 	public WebDriver driver;
-	static String browser;  
+	static String browser;
+	static String instance;
 
 	static {
 		browser = System.getProperty("browser");
-		System.out.println(browser);
+		instance = System.getProperty("instance");
+		System.out.println(browser +" "+instance);
 		
-
-
 	}
 
 	@Test(priority=1 )
@@ -51,7 +51,7 @@ public class TestSetting{
 	@Test(priority=2)
 	public void NavigateURL(){
 
-		driver.get("http://www.google.com");
+		driver.get(instance);
 		String test = driver.getTitle();
 		System.out.println(test);
 	}
