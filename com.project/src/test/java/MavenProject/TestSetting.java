@@ -24,7 +24,7 @@ public class TestSetting{
 	}
 
 	@Test(priority=1 )
-	public void StartBrowser(){
+	public void startBrowser(){
 
 		if (browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
@@ -49,7 +49,7 @@ public class TestSetting{
 	}
 
 	@Test(priority=2)
-	public void NavigateURL(){
+	public void navigateURL(){
 
 		driver.get(instance);
 		String test = driver.getTitle();
@@ -57,7 +57,7 @@ public class TestSetting{
 	}
 
 	@Test(priority=3)
-	public void CloseBrowser(){
+	public void closeBrowser(){
 		driver.close();
 	}
 
