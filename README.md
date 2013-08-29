@@ -1,11 +1,10 @@
+<h3> Here are Steps which I used to <b>Integrate Jenkins-Selenium-Maven-Github</b>.</h3>
 
-Here are Steps which I used to Integrate Jenkins-Selenium-Maven-Github.
-
-# Prerequistes:
+<b> Prerequistes: </b>
 
 JDK (1.6), Maven (3.1.0), Git(1.8.3),Eclipse IDE ,Jenkins War file.
 
-# Installation Steps to Start
+<b> Installation Steps to Start </b>
 
   1) Install Java 
 
@@ -22,8 +21,8 @@ JDK (1.6), Maven (3.1.0), Git(1.8.3),Eclipse IDE ,Jenkins War file.
   4) Get Download Jenkins war file from http://jenkins-ci.org/
 
 
-# You can create your own mavionize project using below Steps or You can take git clone my project too.
-   or find the link http://www.mkyong.com/maven/how-to-create-a-project-with-maven-template/
+<b>You can create your own mavionize project using below Steps or You can take git clone my project too.
+   or find the link http://www.mkyong.com/maven/how-to-create-a-project-with-maven-template/ </b>
 
   1) Create Directory my c:\>mkdir project_name
 
