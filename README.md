@@ -2,44 +2,53 @@
 
 <b> Prerequistes: </b>
 
-JDK (1.6), Maven (3.1.0), Git(1.8.3),Eclipse IDE ,Jenkins War file.
+JDK (1.6), 
+
+Maven (3.1.0), 
+
+Git Bash(1.8.3),
+
+Eclipse IDE ,
+
+Jenkins War file (jenkins.war).
 
 <b> Installation Steps to Start </b>
 
-  1) Install Java 
+  1) <b>Install Java </b>
+  
+  All steps are specified in the following link : http://www3.ntu.edu.sg/home/ehchua/programming/howto/JDK_Howto.html
 
-	* All Steps are Written Here http://www3.ntu.edu.sg/home/ehchua/programming/howto/JDK_Howto.html
+  2) <b>Install Maven </b>
+  
+  All steps are specified in the following link : http://www.mkyong.com/maven/how-to-install-maven-in-windows/
 
-  2) Install Maven 
+  3) <b>Install Git </b>
 
-	* All Steps are written Here http://www.mkyong.com/maven/how-to-install-maven-in-windows/
+  All steps are specified in the following link : http://git-scm.com/book/en/Getting-Started-Installing-Git"
 
-  3) Install Git 
-
-  	* All Steps are written here http://git-scm.com/book/en/Getting-Started-Installing-Git
-
-  4) Get Download Jenkins war file from http://jenkins-ci.org/
+  4) Download the <b>latest Jenkins war file </b>from http://jenkins-ci.org/
 
 
-<b>You can create your own mavionize project using below Steps or You can take git clone my project too.
+<b>You can create your own mavenize project using below steps or You can take git clone my project too.
    or find the link http://www.mkyong.com/maven/how-to-create-a-project-with-maven-template/ </b>
 
-  1) Create Directory my c:\>mkdir project_name
+  1) Create Directory C:\ > mkdir project_name
 
-  2) Go into directory c:\>cd project_name
+  2) Go into directory C:\ > cd project_name
   
-  3) Create an Maven Instance by command c:\project_name>mvn archetype:generate
+  3) Create a Maven Instance by command C:\project_name>mvn archetype:generate
 
-  4)  Define value for groupId: : com.project
-      Define value for artifactId: : project_name
-      Define value for version:  1.0-SNAPSHOT: : 1.0
-      Define value for package:  com.mkyong: : testing
+  4)  
+      Define value for groupId : <b>com.project</b><br>
+      Define value for artifactId : <b>project_name</b><br>
+      Define value for version : <b>1.0-SNAPSHOT: : 1.0</b><br>
+      Define value for package : <b>com.mkyong: : testing</b><br>
 
-  5) Maven Project is created but to import that project in Eclipse run below command
+  5) Maven Project is now created.To import that project in Eclipse run following command : 
 
-	c:\project_name>cd project_name 
+	C:\project_name>cd project_name 
 
-	c:\project_name\project_name>mvn eclipse:eclipse
+	C:\project_name\project_name>mvn eclipse:eclipse
 
   6) This will add .classpath file in project.Now import that project in Eclipse IDE
 
