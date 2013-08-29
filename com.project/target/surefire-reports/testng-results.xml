@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MavenProject.TestSetting" duration-ms="23838" started-at="2013-08-29T19:51:21Z" finished-at="2013-08-29T19:51:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="23838" started-at="2013-08-29T19:51:21Z" finished-at="2013-08-29T19:51:45Z">
+      <class name="MavenProject.TestSetting">
+        <test-method status="PASS" signature="StartBrowser()[pri:1, instance:MavenProject.TestSetting@47c130]" name="StartBrowser" duration-ms="11638" started-at="2013-08-29T19:51:21Z" finished-at="2013-08-29T19:51:33Z">
+        </test-method>
+        <test-method status="PASS" signature="NavigateURL()[pri:2, instance:MavenProject.TestSetting@47c130]" name="NavigateURL" duration-ms="12166" started-at="2013-08-29T19:51:33Z" finished-at="2013-08-29T19:51:45Z">
+        </test-method>
+        <test-method status="PASS" signature="CloseBrowser()[pri:3, instance:MavenProject.TestSetting@47c130]" name="CloseBrowser" duration-ms="20" started-at="2013-08-29T19:51:45Z" finished-at="2013-08-29T19:51:45Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
