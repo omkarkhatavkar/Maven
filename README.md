@@ -51,8 +51,41 @@ Jenkins War file (jenkins.war).
 	C:\project_name\project_name>mvn eclipse:eclipse
 
   6) This will add .classpath file in project.Now import that project in Eclipse IDE
+  
+  7) Set path for .m2 variable in eclipse (http://www.mkyong.com/maven/how-to-configure-m2_repo-variable-in-eclipse-ide/)link for details 
+  
+Now you are doen with Maven Project. Now move on Jenkins Settup as below.
 
+  1) Download Jenkins war file from http://jenkins-ci.org/
+  
+  2) Run that war file as standalone server as C:\>java -jar jenkins.war (as I save that war file in C drive )
+  
+  3) Jenkins up will be running at default http://localhost:8080/ url
+  
+  4) Install GitHub plugin from navigating from Jenkins->Manage Jenkins->Manage Plugins
+  
+  5) Now navigate to Jenkins->Configure System and Do setting for maven as Install automatically with variable name mention as in Enviroment Variable.(like M2_Repo in my case) 
+ 
+  6) Apply and Save all setting made in configuration.
+  
+We all are done with Jenkins Setup.Now We look into Jenkins job
 
+  1) Create New job with click (Build a maven2/3 project) option.
+  
+  2) In Source Code Management Check git option
+  
+  3) Provide your github repository URL where you have hosted your project.
+  
+  4) give branch name for Branches to build (i.e.master)
+  
+  5) In Build section give relative path for pom.xml from repo name present in github
+  
+  6) Give goal as test to run the project
+  
+  7) Now apply the changes, save the settings and build the project.
+  
+Hope this will you to build Jenkins with Selenium.This not covers selenium grid integration with Jenkins. May be in next version I will add it
+	
 
   
     
