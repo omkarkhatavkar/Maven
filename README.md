@@ -80,8 +80,8 @@ We all are done with Jenkins Setup.Now We look into Jenkins job
   
   5) In Build section give relative path for pom.xml from repo name present in github
   
-  6) Give goal as test to run the project
-  
+  6) Give goal as <b>test</b> to run the project or In my Github project I given as <b>-Dbrowser firefox -Dinstance http://google.com test</b>
+ 
   7) Now apply the changes, save the settings and build the project.
   
 Hope this will you to build Jenkins with Selenium.This not covers selenium grid integration with Jenkins. May be in next version I will add it
