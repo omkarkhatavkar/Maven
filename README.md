@@ -2,7 +2,7 @@
 
 <b> Prerequistes: </b>
 
-JDK (1.6), 
+JDK (1.7), 
 
 Maven (3.1.0), 
 
